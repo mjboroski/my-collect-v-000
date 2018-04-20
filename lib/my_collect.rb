@@ -5,4 +5,5 @@ def my_collect(array)
     holder<<yield(array[i])
     i+=1
   end
+  holder
 end
